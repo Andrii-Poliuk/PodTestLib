@@ -2,14 +2,18 @@
   "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "989ff961-82dc-aa4e-bb05-1aa2ef4d1c4d++609",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "989ff961-82dc-aa4e-bb05-1aa2ef4d1c4d++609" : {
-
+      "DVTSourceControlWorkingCopyRepositoryBranchesLocationKey" : "branches",
+      "DVTSourceControlWorkingCopyRepositoryTagsLocationKey" : "tags",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "trunk"
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E6C16773E54BC98C5114BFDBF6C8AADA37F2087D" : 0,
     "989ff961-82dc-aa4e-bb05-1aa2ef4d1c4d++609" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5FB9040D-5807-42FB-BB7A-FE1258464785",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E6C16773E54BC98C5114BFDBF6C8AADA37F2087D" : "PodsTestLib\/",
     "989ff961-82dc-aa4e-bb05-1aa2ef4d1c4d++609" : "..\/..\/.."
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Pods",
@@ -20,6 +24,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/abtsoftware-dev.cloudapp.net:8443\/svn\/SciChart.ios",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "989ff961-82dc-aa4e-bb05-1aa2ef4d1c4d++609"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Andrii-Poliuk\/PodsTestLib.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E6C16773E54BC98C5114BFDBF6C8AADA37F2087D"
     }
   ]
 }

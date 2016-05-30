@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		496BE8B1CAA6B955BDCD520AA2B4DEAB /* PodsTestLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 158247B58A6900338EB1D19D776763D6 /* PodsTestLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58F9C3DE0CDE4117D23EE2F4D0C404B5 /* Pods-PodsTestLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22205505068DE4EB60319F260768C096 /* Pods-PodsTestLib_Tests-dummy.m */; };
-		846166031CFC10D0009E19D6 /* PODSourceLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846166021CFC10D0009E19D6 /* PODSourceLib.framework */; settings = {ASSET_TAGS = (); }; };
+		846166051CFC1FC3009E19D6 /* PODSourceLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846166041CFC1FC3009E19D6 /* PODSourceLib.framework */; settings = {ASSET_TAGS = (); }; };
 		8702DBFE5D136EB520C534AC62D9712F /* PodsTestLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB31736F62E194EEF446B1D16264DBE /* PodsTestLib-dummy.m */; };
 		95CF37B991ACEDBE68372EDE49753B56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		D7A9F5C44A3D3E81CC4C386EE947C175 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
@@ -36,7 +36,7 @@
 		6FE90BA31BD498DDF5B262A69E2D202B /* PodsTestLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PodsTestLib-prefix.pch"; sourceTree = "<group>"; };
 		7E075FBCA0ED212C84D2338F0056037B /* Pods-PodsTestLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PodsTestLib_Tests.modulemap"; sourceTree = "<group>"; };
 		830D182DD84136B8376FA20F2C0DFCF8 /* Pods-PodsTestLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PodsTestLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		846166021CFC10D0009E19D6 /* PODSourceLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PODSourceLib.framework; path = PodsTestLib/PODSourceLib.framework; sourceTree = "<group>"; };
+		846166041CFC1FC3009E19D6 /* PODSourceLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PODSourceLib.framework; path = ../../PODSourceLib.framework; sourceTree = "<group>"; };
 		84E6372089F6D6359135838D8FCED8A7 /* PodsTestLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodsTestLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7F490EF97AD125722CAB98C368C1F6 /* Pods-PodsTestLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PodsTestLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		92933FC0915590564A57F9CA5F2125E1 /* Pods-PodsTestLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PodsTestLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95CF37B991ACEDBE68372EDE49753B56 /* Foundation.framework in Frameworks */,
-				846166031CFC10D0009E19D6 /* PODSourceLib.framework in Frameworks */,
+				846166051CFC1FC3009E19D6 /* PODSourceLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,6 @@
 		18457400D9F7F2ED65732FC5A7610726 /* PodsTestLib */ = {
 			isa = PBXGroup;
 			children = (
-				846166021CFC10D0009E19D6 /* PODSourceLib.framework */,
 				846EC3B47C74A0A602E5A4972D2366A5 /* PodsTestLib */,
 				B08947D74E94BB9FF410C0B0C6DA2FCC /* Support Files */,
 			);
@@ -176,6 +175,7 @@
 		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				846166041CFC1FC3009E19D6 /* PODSourceLib.framework */,
 				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
 			);
 			name = iOS;
