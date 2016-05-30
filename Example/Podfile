@@ -1,6 +1,12 @@
-use_frameworks!
-target 'PodsTestLib_Tests' do
-  pod 'PodsTestLib', :path => '../'
-  
-  
+Pod::Spec.new do |s|
+    s.name         = "PodsTestLib"
+    s.version      = "0.0.1"
+    s.summary      = "PodsTestLib created only for learning and will be deprecated soon."
+    s.author       = { "Bot Not" => "not_bot77@mail.ru" }
+    s.platform     = :ios, '8.0'
+    s.ios.deployment_target = '8.0'
+    s.source_files = 'StaticLib/Headers/*.h'
+    s.preserve_paths = 'StaticLib/libYourLibrary.a'
+    s.library = 'PodTestLib'
+    s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/PodsTestLib/PODSourceLib.framework' }
 end

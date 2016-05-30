@@ -1,0 +1,6 @@
+framework module PODSourceLib {
+  umbrella header "PODSourceLib.h"
+
+  export *
+  module * { export * }
+}
