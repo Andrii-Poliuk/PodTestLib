@@ -1,9 +1,10 @@
 {
   "name": "PodsTestLib",
   "version": "0.1.0",
-  "summary": "A short description of PodsTestLib.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/PodsTestLib",
+  "summary": "PodsTestLib made only for studying and will be depricated shortly.",
+  "description": "PodsTestLib made only for studying and will be depricated shortly.
+Do not use PodsTestLib.",
+  "homepage": "ttps://github.com/Andrii-Poliuk/PodTestLib.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +13,11 @@
     "Admin": "andrii.polyuk@blackthorn-vision.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/PodsTestLib.git",
+    "git": "ttps://github.com/Andrii-Poliuk/PodTestLib.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PodsTestLib/Classes/**/*"
+  “vendored_frameworks”: “PODSourceLib.framework”
 }

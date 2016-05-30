@@ -4,13 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/PODNumber.h</key>
+		<data>
+		CFYqbh9/t36BiqSowaitu+jRuUQ=
+		</data>
 		<key>Headers/PODSourceLib.h</key>
 		<data>
 		wk8/EMrcqzOLH8KYO6SILig/foY=
-		</data>
-		<key>Headers/PODSourceUniversal.h</key>
-		<data>
-		oJ71B6j26w6YsfmWtkswEolX/0I=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -20,20 +20,28 @@
 		<data>
 		Sd2GLeYNLFK4qYN6S9GqDhUX1x4=
 		</data>
+		<key>PrivateHeaders/PODSourceUniversal.h</key>
+		<data>
+		oJ71B6j26w6YsfmWtkswEolX/0I=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/PODNumber.h</key>
+		<data>
+		CFYqbh9/t36BiqSowaitu+jRuUQ=
+		</data>
 		<key>Headers/PODSourceLib.h</key>
 		<data>
 		wk8/EMrcqzOLH8KYO6SILig/foY=
 		</data>
-		<key>Headers/PODSourceUniversal.h</key>
-		<data>
-		oJ71B6j26w6YsfmWtkswEolX/0I=
-		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		Sd2GLeYNLFK4qYN6S9GqDhUX1x4=
+		</data>
+		<key>PrivateHeaders/PODSourceUniversal.h</key>
+		<data>
+		oJ71B6j26w6YsfmWtkswEolX/0I=
 		</data>
 	</dict>
 	<key>rules</key>
